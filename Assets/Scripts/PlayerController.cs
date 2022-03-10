@@ -121,6 +121,8 @@ public class PlayerController : MonoBehaviour
             Instantiate(explosionPlayer, transform.position + new Vector3(0, 0.4f, 0), Quaternion.identity);
             panelGameOver.SetActive(true);
             Destroy(gameObject);
+            actualMana = 0f;
+            FireItemController.shoots = 0;
         }
 
         // spike dead
@@ -131,6 +133,8 @@ public class PlayerController : MonoBehaviour
             Instantiate(explosionPlayer, transform.position + new Vector3(0, 0.4f, 0), Quaternion.identity);
             panelGameOver.SetActive(true);
             Destroy(gameObject);
+            actualMana = 0f;
+            FireItemController.shoots = 0;
         }
 
         // Slime dead
@@ -141,6 +145,8 @@ public class PlayerController : MonoBehaviour
             Instantiate(explosionPlayer, transform.position + new Vector3(0, 0.4f, 0), Quaternion.identity);
             panelGameOver.SetActive(true);
             Destroy(gameObject);
+            actualMana = 0f;
+            FireItemController.shoots = 0;
         }
     }
 

@@ -1,0 +1,4 @@
+repository "AE2.Plataformas_2D@CUCUDRULU_software@cloud"
+  path "/"
+    br "/main"
+    co "/main"
