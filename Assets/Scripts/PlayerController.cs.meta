@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 4c09a3ef07bae17439f46bbd88e3584e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fireItemSoundCollect: {instanceID: 0}
+  - jumpSound: {instanceID: 0}
+  - magicShootSound: {instanceID: 0}
+  - FireBall: {instanceID: 0}
+  - cameraPlayer: {instanceID: 0}
+  - explosionPlayer: {instanceID: 0}
+  - panelGameOver: {instanceID: 0}
+  - manaBar: {instanceID: 0}
+  - cursorTexture: {fileID: 2800000, guid: 1ecd92fa3ab73c94284db64b07034962, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
